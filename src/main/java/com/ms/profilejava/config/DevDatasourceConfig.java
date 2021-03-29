@@ -10,4 +10,9 @@ public class DevDatasourceConfig implements DatasourceConfig {
     public void setup() {
         System.out.println("Setting up datasource for DEV environment. ");
     }
+
+    @Override
+    public String verifyOtp() {
+        return "Mock Data to verify !";
+    }
 }

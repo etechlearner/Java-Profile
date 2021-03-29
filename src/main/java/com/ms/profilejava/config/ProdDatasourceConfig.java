@@ -10,4 +10,9 @@ public class ProdDatasourceConfig implements DatasourceConfig {
     public void setup() {
         System.out.println("Setting up datasource for PROD environment. ");
     }
+
+    @Override
+    public String verifyOtp() {
+        return "Acctual Implementation of SMS service ";
+    }
 }

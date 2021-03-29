@@ -10,4 +10,9 @@ public class UatDatasourceConfig implements DatasourceConfig {
     public void setup() {
         System.out.println("Setting up datasource for UAT environment. ");
     }
+
+    @Override
+    public String verifyOtp() {
+        return null;
+    }
 }

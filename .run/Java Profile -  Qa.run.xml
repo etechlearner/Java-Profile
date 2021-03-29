@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Java Profile -  Dev" type="Application" factoryName="Application">
+    <envs>
+      <env name="ENV" value="dev" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="com.ms.profilejava.ProfileJavaApplication" />
+    <module name="profile-java" />
+    <option name="VM_PARAMETERS" value="-Dspring.profiles.active=dev" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

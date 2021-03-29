@@ -10,4 +10,9 @@ public class StageDatasourceConfig implements DatasourceConfig {
     public void setup() {
         System.out.println("Setting up datasource for STAGE environment. ");
     }
+
+    @Override
+    public String verifyOtp() {
+        return null;
+    }
 }
