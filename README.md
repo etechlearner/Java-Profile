@@ -3,6 +3,7 @@
 # Instructions
 
 - Primary
+
  [x] Profile
     - Java Logic Layer Profile
     - Java Configuration Layer Profile
